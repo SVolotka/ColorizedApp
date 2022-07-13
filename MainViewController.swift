@@ -8,7 +8,7 @@
 import UIKit
 
 class MainViewController: UIViewController {
-
+    
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         let settingsVC = segue.destination as! SettingsViewController
         settingsVC.delegate = self
@@ -19,12 +19,12 @@ class MainViewController: UIViewController {
         super.viewDidLoad()
     }
 }
-    
-    extension MainViewController: SettingsViewControllerDelegate {
+
+extension MainViewController: SettingsViewControllerDelegate {
     func setColor(color: UIColor) {
         view.backgroundColor = color
     }
-
+    
 }
 
 
