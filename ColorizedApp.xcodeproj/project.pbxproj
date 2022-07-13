@@ -13,6 +13,7 @@
 		855D69B7286720C800CF00CF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 855D69B5286720C800CF00CF /* Main.storyboard */; };
 		855D69B9286720C900CF00CF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 855D69B8286720C900CF00CF /* Assets.xcassets */; };
 		855D69BC286720C900CF00CF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 855D69BA286720C900CF00CF /* LaunchScreen.storyboard */; };
+		85E59788287F3FEF00C757E6 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85E59787287F3FEF00C757E6 /* MainViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		855D69B8286720C900CF00CF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		855D69BB286720C900CF00CF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		855D69BD286720C900CF00CF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		85E59787287F3FEF00C757E6 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -40,6 +42,7 @@
 		855D69A3286720C800CF00CF = {
 			isa = PBXGroup;
 			children = (
+				85E59787287F3FEF00C757E6 /* MainViewController.swift */,
 				855D69AE286720C800CF00CF /* ColorizedApp */,
 				855D69AD286720C800CF00CF /* Products */,
 			);
@@ -141,6 +144,7 @@
 				855D69B4286720C800CF00CF /* ViewController.swift in Sources */,
 				855D69B0286720C800CF00CF /* AppDelegate.swift in Sources */,
 				855D69B2286720C800CF00CF /* SceneDelegate.swift in Sources */,
+				85E59788287F3FEF00C757E6 /* MainViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -287,6 +291,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2UL43XJ8D5;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = ColorizedApp/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -315,6 +320,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2UL43XJ8D5;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = ColorizedApp/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
